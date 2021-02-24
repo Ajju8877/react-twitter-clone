@@ -1,0 +1,67 @@
+.main_sidebar{
+  height: 100vw;
+  margin-right: 0px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  flex: 0.35;
+  background-color: #b3daff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #000;
+  align-items: center;
+}
+.sidebar_content{
+margin-top: 50px; 
+}
+.sidebar_details{
+  display: flex;
+  padding: 5px;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.8);
+}
+.sidebar_chat{
+  margin-left: 10px; 
+  }
+.toggle{
+align-items: center;
+background-color: #fff;
+border-radius: 10px;
+padding: 10px;
+margin-bottom: 20px;
+box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.8);
+text-align: center;
+}
+.toggle_switch{
+background-color: green;
+width: 80px;
+margin: auto;
+padding: 5px 0 5px 0;
+box-shadow: -1px 4px 20px -1px rgba(0,0,0,0.5);
+}
+.toggle_switch{
+list-style: none;
+display: flex;
+justify-content: space-around;
+cursor: pointer;
+}
+.feedback{
+background-color: #fff;
+border-radius: 10px;
+padding: 10px;
+box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.8);
+text-align: center;
+}
+.feedback h4{
+box-shadow: -1px 4px 20px -1px rgba(0,0,0,0.6);
+background-color: green;
+padding: 10px;
+border-radius: 5px;
+margin: auto;
+cursor: pointer;
+}
